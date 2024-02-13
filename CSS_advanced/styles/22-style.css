@@ -1,3 +1,8 @@
+[data-section-theme=“dark”] {
+        --text-color: #ffffff;
+        --section-title-color: #ffffff;
+        background: var(--color-black);
+}
 *,
 *::before,
 *::after {
@@ -162,9 +167,4 @@ ul.row {
 	content: "";
 	display: table;
 	clear: both;
-}
-[data-section-theme=“dark”] {
-	--text-color: #ffffff;
-	--section-title-color: #ffffff;
-	background: var(--color-black);
 }
