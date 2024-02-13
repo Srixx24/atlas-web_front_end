@@ -179,13 +179,13 @@ a:active {
 }
 
 .nav .nav-link::before {
-	content: empty;
+	content: "";
 	position: absolute;
-	left; 0;
 	top; 0;
+	left; 0;
 	background-color: var(--color-white);
 	width: 0;
-	height: 20%;
+	height: 0.2rem;
 }
 
 .nav:hover .nav-item:hover .nav-link::before {
