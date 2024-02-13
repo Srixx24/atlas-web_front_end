@@ -137,7 +137,7 @@ a:active {
 }
 [class^="col-"] {
 	float: left;
-	padding: calc(var(--root-element-size) / 2);
+	padding: 0.5rem;
 }
 ul.row {
 	margin: 0;
