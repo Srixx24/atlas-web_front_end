@@ -5,6 +5,7 @@ html {
 body {
 	text-color: #161616;
 	font-family: var(--font-family-base);
+	font-size: var(--font-size-medium);
 }
 a {
 	text-color: #161616;
