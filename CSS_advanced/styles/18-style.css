@@ -112,11 +112,12 @@ a:active {
 .nav {
 	margin: 0;
 	padding: 0;
+	list-style: none;
 	text-align: center;
 }
 .nav-item {
 	font-family: var(--nav-item-font-family);
-	font-weight: var(nav-item-font-weight);
+	font-weight: var(--nav-item-font-weight);
 	font-size: var(--nav-item-font-size);
 	letter-spacing: var(--nav-item-letter-spacing);
 	display: var(--nav-item-display);
@@ -126,8 +127,8 @@ a:active {
 	display: block;
 	padding-top: calc(var(--root-element-size) / 2);
 	padding-bottom: calc(var(--root-element-size) / 2);
-	padding-right: var(--root-element-size) / 2);
-	padding-left: var(--root-element-size) / 2);
+	padding-right: var(--root-element-size);
+	padding-left: var(--root-element-size);
 }
 .nav:hover .nav-link {
 	color: var(--nav-item-link-hover);
