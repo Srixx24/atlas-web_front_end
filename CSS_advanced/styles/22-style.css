@@ -166,5 +166,5 @@ ul.row {
 [data-section-theme=“dark”] {
 	--text-color: #ffffff;
 	--section-title-color: #ffffff;
-	--background: var(--color-black);
+	background: var(--color-black);
 }
