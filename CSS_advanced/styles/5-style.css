@@ -1,6 +1,5 @@
 html {
 	scroll-behavior: smooth;
-	font-size: var(--html-font-size);
 }
 body {
 	text-color: #161616;
