@@ -23,7 +23,7 @@ section-title {
 	font-size: var(--font-size-xx-large);
 	font-weight: var(--font-weight-bold);
 	margin: var(--section-title-margin);
-	text-color: var(--section-title-color);
+	color: var(--section-title-color);
 }
 .card-category,
 .section-tagline {
@@ -54,7 +54,7 @@ section-title {
 	--section-header-align: center;
 	--section-tagline-transform: uppercase;
 	--section-title-margin: 0;
-	--section-title-color: color: black;
+	--section-title-color: black;
 }
 h1, h2, h3, h4, h5, h6 {
 	font-family: var(--font-family-title);
