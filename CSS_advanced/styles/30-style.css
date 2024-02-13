@@ -231,7 +231,7 @@ a:active {
 
 .card-work .card-outer {
 	position: relative;
-	overflow: hide;
+	overflow: hidden;
 }
 
 .card-work .card-image {
@@ -250,13 +250,13 @@ a:active {
 }
 
 .card-work:hover .card-inner {
-	background-color: --rgba(0, 0, 0, 0.7);
+	background-color: rgba(0, 0, 0, 0.7);
 }
 
 .card-work .card-title {
 	text-align: center;
 	margin: 0;
-	opacity: low;
+	opacity: 0;
 	height: 100%;
 	position: relative;
 }
