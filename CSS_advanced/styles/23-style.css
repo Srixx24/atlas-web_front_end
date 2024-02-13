@@ -148,6 +148,14 @@ a:active {
 	color: var(--nav-item-link-hover);
 }
 
+.social-link {
+	display: block;
+}
+
+.social-link > svg {
+	fill: var(--text-color);
+}
+
 ul.row {
 	margin: 0;
 	padding: 0;
@@ -179,6 +187,10 @@ ul.row {
 
 .footer ul {
 	text-align: right;
+}
+
+.footer-address {
+	color: var(--text-color);
 }
 
 .footer-copyright {
